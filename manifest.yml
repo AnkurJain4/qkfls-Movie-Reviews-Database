@@ -1,5 +1,8 @@
 ---
 applications:
- - name: movies-reviews-database
+ - name: movies-reviews-database-c01
    random-route: false
    memory: 128M
+   services:
+     - anjaliappdev-Cloudant
+     - anjaliappdev-nlu
